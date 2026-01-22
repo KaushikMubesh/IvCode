@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread(r"C:\Users\kaush\.matplotlib\Desktop\Industrial vision\down.jpg",0)
+img = cv2.imread(r"C:\Users\embed\Desktop\New folder\IvCode\down.jpg",0)
 
 edges = cv2.Canny(img, 100, 200)
 
