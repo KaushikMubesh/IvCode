@@ -13,9 +13,9 @@ for i in range(length):
     for j in range(b):
         for k in range(3):
             if (img[i][j][k] >=70):
-                img[i][j][k] = 5
+                img[i][j][k] = 250
             else:
-                img[i][j][k] =250
+                img[i][j][k] =5
 
 cv2.imshow("rsfrg",img)
 cv2.waitKey(0)
